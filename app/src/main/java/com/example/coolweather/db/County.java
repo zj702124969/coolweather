@@ -2,9 +2,9 @@ package com.example.coolweather.db;
 
 import org.litepal.crud.DataSupport;
 
-public class Country extends DataSupport {//县城或者区的天气信息
+public class County extends DataSupport {//县城或者区的天气信息
     private int id;
-    private String countryName;
+    private String countyName;
     private String weatherId;
     private  int cityId;
 
@@ -16,12 +16,12 @@ public class Country extends DataSupport {//县城或者区的天气信息
         this.id = id;
     }
 
-    public String getCountryName() {
-        return countryName;
+    public String getCountyName() {
+        return countyName;
     }
 
-    public void setCountryName(String countryName) {
-        this.countryName = countryName;
+    public void setCountyName(String countryName) {
+        this.countyName = countryName;
     }
 
     public String getWeatherId() {
